@@ -1,0 +1,62 @@
+.container{
+    margin: 300px auto;
+    width: 1200px;
+
+}
+.title {
+    /* Таблица цветов */
+
+    position: absolute;
+    width: 162px;
+    height: 22px;
+    left: calc(50% - 132px / 2 - 23.5px);
+    top: 1em;
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #ffffff;
+}
+
+.main-block {
+    position: relative;
+    width: 680px;
+    height: 380px;
+    margin: 0 auto;
+    border-radius: 22px;
+    background: #090a0a;
+}
+.header{
+    display: table;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    position: absolute;
+    width: 680px;
+    height: 54px;
+    margin: 0 auto;
+    background: #424242;
+    color: white;
+    top: 67px;
+
+}
+.header div{
+    display: table-cell;
+    box-sizing: border-box;
+    height: 54px;
+    background: linear-gradient(0deg, #424242, #424242), #FFFFFF;
+    border: 1px solid #333333;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+.header p{
+    margin: 15px 15px  15px 15px;
+    align:"center";
+}
+.example{
+    margin-left: 1000px;
+}
